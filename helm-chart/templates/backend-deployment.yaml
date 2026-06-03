@@ -19,7 +19,7 @@ spec:
             - containerPort: 5000
           env:
             - name: DB_HOST
-              value: "my-rds-instance.ce9wya4k41zv.us-east-1.rds.amazonaws.com"
+              value: "my-rds-instance2.c8b4yi0mqdjc.us-east-1.rds.amazonaws.com"
             - name: DB_USER
               valueFrom:
                 secretKeyRef:
